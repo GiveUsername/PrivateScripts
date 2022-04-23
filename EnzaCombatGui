@@ -49,7 +49,7 @@ NA_2.BackgroundTransparency = 1.000
 NA_2.Position = UDim2.new(0, 0, 0.490000039, 0)
 NA_2.Size = UDim2.new(0, 240, 0, 56)
 NA_2.Font = Enum.Font.Arcade
-NA_2.Text = "[4] Uppercut (10)"
+NA_2.Text = "       [4] Uppercut (10)"
 NA_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 NA_2.TextSize = 32.000
 

@@ -1,0 +1,87 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local NA = Instance.new("TextLabel")
+local Kick = Instance.new("TextLabel")
+local NA_2 = Instance.new("TextLabel")
+local Barrage = Instance.new("TextLabel")
+local GunShot = Instance.new("TextLabel")
+local Ultiamte = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+Main.BackgroundTransparency = 0.500
+Main.BorderColor3 = Color3.fromRGB(145, 145, 145)
+Main.BorderSizePixel = 20
+Main.Position = UDim2.new(0.0055792057, 0, 0.7472893, 0)
+Main.Size = UDim2.new(0, 397, 0, 331)
+
+NA.Name = "N/A"
+NA.Parent = Main
+NA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NA.BackgroundTransparency = 1.000
+NA.Position = UDim2.new(0, 0, 0.649999857, 0)
+NA.Size = UDim2.new(0, 240, 0, 49)
+NA.Font = Enum.Font.Arcade
+NA.Text = "[5] N/A (?)"
+NA.TextColor3 = Color3.fromRGB(0, 0, 0)
+NA.TextSize = 32.000
+
+Kick.Name = "Kick"
+Kick.Parent = Main
+Kick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Kick.BackgroundTransparency = 1.000
+Kick.Position = UDim2.new(0, 0, 0.200000003, 0)
+Kick.Size = UDim2.new(0, 348, 0, 52)
+Kick.Font = Enum.Font.Arcade
+Kick.Text = "[2] Back Kick (6)"
+Kick.TextColor3 = Color3.fromRGB(0, 0, 0)
+Kick.TextSize = 32.000
+
+NA_2.Name = "N/A"
+NA_2.Parent = Main
+NA_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NA_2.BackgroundTransparency = 1.000
+NA_2.Position = UDim2.new(0, 0, 0.490000039, 0)
+NA_2.Size = UDim2.new(0, 240, 0, 56)
+NA_2.Font = Enum.Font.Arcade
+NA_2.Text = "[4] N/A (?)"
+NA_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+NA_2.TextSize = 32.000
+
+Barrage.Name = "Barrage"
+Barrage.Parent = Main
+Barrage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Barrage.BackgroundTransparency = 1.000
+Barrage.Position = UDim2.new(0, 0, 0.040650446, 0)
+Barrage.Size = UDim2.new(0, 331, 0, 50)
+Barrage.Font = Enum.Font.Arcade
+Barrage.Text = "[1] Barrage (10)"
+Barrage.TextColor3 = Color3.fromRGB(0, 0, 0)
+Barrage.TextSize = 32.000
+
+GunShot.Name = "GunShot"
+GunShot.Parent = Main
+GunShot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GunShot.BackgroundTransparency = 1.000
+GunShot.Position = UDim2.new(0.0211640205, 0, 0.349999815, 0)
+GunShot.Size = UDim2.new(0, 370, 0, 46)
+GunShot.Font = Enum.Font.Arcade
+GunShot.Text = "[3]  Beam Shot (30)"
+GunShot.TextColor3 = Color3.fromRGB(0, 0, 0)
+GunShot.TextSize = 32.000
+
+Ultiamte.Name = "Ultiamte"
+Ultiamte.Parent = Main
+Ultiamte.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ultiamte.BackgroundTransparency = 1.000
+Ultiamte.Position = UDim2.new(0.0476190485, 0, 0.788028002, 0)
+Ultiamte.Size = UDim2.new(0, 360, 0, 49)
+Ultiamte.Font = Enum.Font.Arcade
+Ultiamte.Text = "[6] Ultimate (W.I.P)"
+Ultiamte.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ultiamte.TextSize = 32.000
